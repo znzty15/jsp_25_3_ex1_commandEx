@@ -76,7 +76,7 @@ public class FrontControl extends HttpServlet {
 				 writer.println("E-mail : " + email + "<br>");
 				 writer.println("가입일 : " + rdate.toLocalDateTime() + "<br>");
 				 writer.println("주소 : " + address + "<br>");				 
-				 writer.println("<hr>");	 
+				 writer.println("<hr>");
 			}			
 			writer.println("</body></html>");			
 		}
